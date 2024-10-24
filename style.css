@@ -1,0 +1,35 @@
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+
+}
+
+nav{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    color: whitesmoke;
+    height: 80px;
+    
+    
+}
+nav .nav-links{
+    /* border: 2px solid rgb(68, 255, 0); */
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+    margin-right: 200px;
+    gap: 20px;
+}
+
+nav .logo{
+    /* border: 2px solid rgb(47, 0, 255); */
+    margin-left: 200px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
