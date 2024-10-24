@@ -4,6 +4,14 @@
 
 }
 
+/* 
+=====================================
+
+Navigation bar 
+
+=====================================
+*/
+
 nav{
     /* border: 2px solid red; */
     display: flex;
@@ -32,4 +40,58 @@ nav .logo{
 a{
     text-decoration: none;
     color: whitesmoke;
+}
+
+/* 
+=====================================
+
+main content
+
+=====================================
+*/
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: #1F2937;
+    color: whitesmoke;
+}
+
+.main-content-text{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: max-content;
+    flex-basis: 500px;
+    align-self: center;
+    gap: 10px;
+    height: 75%;
+}
+
+.main-content-text h1{
+    width: 300px;
+}
+
+.main-content-text p{
+    width: 420px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.main-content-text button{
+    width: 80px;
+    padding: 8px;
+    background-color: rgb(48, 105, 210);
+    color: whitesmoke;
+    border-radius: 8px;
+    border: none;
+}
+
+.image{
+    flex-basis: 500px;
+    height: 75%;
+    align-self: center;
+    background-color: rgba(67, 67, 67, 0.534);
 }
