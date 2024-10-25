@@ -191,5 +191,58 @@ quote
     
 }
 
+/* 
+=====================================
+
+sign up section
+
+=====================================
+*/
+
+
+.sign-up-section{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-section .main-conetner{
+    background-color: #3882f6;
+    color: whitesmoke;
+    border-radius: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+
+    display: flex;
+    gap: 40px;
+}
+
+.sign-up-section h4{
+    font-size: 20px
+}
+
+.sign-up-section p{
+    font-size: 16px;
+    color: #ebf0f6;
+}
+
+.sign-up-section button{
+    background-color: #3882f6;
+    border-style: none;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    border-radius: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: medium;
+}
+
+.sign-up-section button:hover{
+    background-color: #6698e8;
+
+}
 
 
