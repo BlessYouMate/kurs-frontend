@@ -246,3 +246,23 @@ sign up section
 }
 
 
+/* 
+=====================================
+
+footer
+
+=====================================
+*/
+
+footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+footer p{
+    font-size: 18px;
+    color: #f7f7f7;
+}
