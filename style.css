@@ -89,6 +89,10 @@ main content
     border: none;
 }
 
+.main-content-text button:hover{
+    background-color: rgb(117, 144, 195);
+}
+
 .image{
     flex-basis: 500px;
     height: 75%;
