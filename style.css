@@ -95,3 +95,97 @@ main content
     align-self: center;
     background-color: rgba(67, 67, 67, 0.534);
 }
+
+/* 
+=====================================
+
+middle content
+
+=====================================
+*/
+
+.mid-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.mid-content .title{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.illustartions{
+    display: flex;
+    margin-top: 30px;
+}
+
+.illustartion-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.illustartion{
+    border: 5px solid #3882f6;
+    border-radius: 15%;
+    width: 180px;
+    height: 180px;
+}
+
+.illustartion-box .subtext{
+    align-items: center;
+    padding: 3px;
+    width: 45%;
+    font-size: 18px;
+    color: #626468;
+    text-align: center;
+}
+
+/* 
+=====================================
+
+quote
+
+=====================================
+*/
+
+.quote-container{
+    background-color: #e5e7eb;
+    height: 400px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 50%;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 30px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quote .author{
+    font-size: 20px;
+    font-weight: 900;
+    align-self: flex-end;
+    
+}
+
+
+
